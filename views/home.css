@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+.container {
+  position: relative;
+  width: 375px;
+  font-family: "Inconsolata", monospace;
+}
+
+.box {
+  position: absolute;
+  margin-bottom: 20px;
+}
+
+.box:hover{
+   border-top: 5px dashed white;
+  z-index: 10;
+  
+}
+
+#box1 {
+  background-color: darkorange;
+  padding:0px 7px 7px 7px;
+  left: 10px;
+  color:white;
+}
+
+
+
+#box2 {
+  background-color: royalblue;
+  padding:0px 7px 6px 7px;
+  left: 150px;
+  Top: 200px;
+  color:white;
+  width: 205px;
+}
+
+#box3 {
+  background-color: seagreen;
+  padding:0px 7px 7px 7px;
+  left: 10px;
+  color:white;
+  width: 205px;
+  Top: 400px;
+}
+
+#box4 {
+  background-color: hotpink;
+  padding:0px 7px 7px 7px;
+  left: 164px;
+  color:white;
+  width: 205px;
+  Top: 550px;
+}
+
+#box5 {
+  background-color: tomato;
+  padding:0px 7px 7px 7px;
+  left: 20px;
+  color:white;
+  width: 205px;
+  Top: 700px;
+}
+#box6 {
+  background-color: darkkhaki;
+  padding:0px 7px 7px 7px;
+  left: 150px;
+  color:white;
+  width: 205px;
+  Top: 850px;
+}
+
+#box7 {
+  background-color: #FFC300;
+  padding:0px 7px 7px 7px;
+  left: 20px;
+  color:white;
+  width: 205px;
+  Top: 1000px;
+}
+
+img {
+  width: 190px;
+}
+
+a, a:link, a:active a:visited {
+  color:white;
+}
